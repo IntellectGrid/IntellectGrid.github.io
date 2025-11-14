@@ -1,4 +1,4 @@
-# NSFW Image Classification with EfficientNext: An Efficient Architecture Search and Training Pipeline
+# EfficientNext: CNN model for NSFW Image Classification
 
 ## Abstract
 We present an efficient and robust pipeline for multi-class NSFW image classification. The method combines a modernized EfficientNet-inspired backbone with configurable attention mechanisms, flexible normalization, and a compact multi-layer classifier. A two-stage procedure is employed: (1) a constrained architecture and hyperparameter search on a balanced subset of approximately fifty thousand images to identify high-potential configurations; and (2) full-scale training of the selected model for final performance. The system emphasizes macro-averaged metrics to cope with class imbalance and provides a practical balance between accuracy and computational efficiency.
